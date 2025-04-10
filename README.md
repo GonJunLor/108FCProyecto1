@@ -53,7 +53,7 @@ nano /usr/share/nginx/html/index.html
 exit
 ```
 ## Crear y subir imagen a dockerHub
-* Creamos la imagen de el contenedor editado y comprobamos que se ha creado
+* Creamos la imagen del contenedor editado y comprobamos que se ha creado
 ```
 docker commit 108fcproyecto1 108fcproyecto1:1.0
 docker images
@@ -73,4 +73,8 @@ sudo docker tag 108fcproyecto1:1.0 gonjunlor/108fcproyecto1:1.0
 * Subimos la imagen a dockerHub
 ```
 docker push gonjunlor/108fcproyecto1:1.0
+```
+* Enlace a la imagen del proyecto1 en dockerHub
+```
+https://hub.docker.com/layers/gonjunlor/108fcproyecto1/1.0/images/sha256-130e64c849b1db40b955d462af5f51e9ad29dbb52719ec3c0ea27034c2f4b07f
 ```
